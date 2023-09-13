@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url(fonts/love\ larry\ ttf.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typograpy)
+                - svg
+            */
+            
+        }
+
+        @font-face {
+        font-family: 'test';
+        src: url(fonts/Rhuma\ Sinera\ Regular.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+        body {
+            font-family: Arial, Helvetica, sans-serif;            
+        }
+        h1 {
+            font-family: 'love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2 {
+            font-family: 'test',Arial, Helvetica, sans-serif;
+            font-size: 5em;
+            font-weight: normal;            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum reprehenderit tempore sed. Sequi ducimus ipsam nam dolore qui, facere sint soluta non fuga adipisci tempora doloremque consectetur, perferendis laboriosam? Error.</p>
+    <h2>Aplicação de Estudo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi atque dolor enim! Debitis placeat accusantium est maxime voluptates, id, hic ducimus at commodi laborum quaerat tempore fugit reiciendis esse ea.</p>
+    
+</body>
+</html>

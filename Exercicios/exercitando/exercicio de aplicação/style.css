@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    text-indent:30px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 1, 1);
+}
+ul {
+    color: rgb(0, 0, 0);
+}
+
+.secundario {
+    color: rgb(255, 0, 0);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent:30px ;
+    background-color: yellowgreen ;
+    font-weight: 800;    
+}
